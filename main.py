@@ -26,7 +26,7 @@ msg["From"] = SENDER_EMAIL
 msg["To"] = RECEIVER_EMAIL
 msg.set_content(contentofmessage)
 
-a = input("URL of the item you are checking for it's availabily:")
+a = input("URL of the item you are checking for it's availabily: ")
 sleeptimeinminutes = sleeptime*60
 while True:
     r = requests.get(a)
